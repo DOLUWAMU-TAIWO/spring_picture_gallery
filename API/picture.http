@@ -1,0 +1,5 @@
+### Find ALl Runs
+GET http://localhost:8080/picture/random
+
+###
+
