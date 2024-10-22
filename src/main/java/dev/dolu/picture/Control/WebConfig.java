@@ -10,7 +10,7 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**") // Allow all endpoints
-                .allowedOrigins("http://127.0.0.1:5500", "http://localhost:3000", "https://zesty-halva-dd321c.netlify.app/") // Allow React and Live Server origins
+                .allowedOrigins("http://127.0.0.1:5500", "http://localhost:3000", "https://qorepictures.netlify.app/") // Allow React and Live Server origins
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Allow necessary HTTP methods
                 .allowedHeaders("*") // Allow all headers
                 .allowCredentials(true) // Allow credentials
